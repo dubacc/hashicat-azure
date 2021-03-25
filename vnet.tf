@@ -1,7 +1,7 @@
-resource "azurerm_resource_group" "test" {
-  name     = "my-resources"
-  location = "West Europe"
-}
+#resource "azurerm_resource_group" "test" {
+#  name     = "my-resources"
+#  location = "East US"
+#}
 
 module "network" {
   source              = "Azure/network/azurerm"
